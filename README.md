@@ -1,4 +1,4 @@
-# Readme File
+# Notepad Read Me
 
 This readme file provides an overview of the code and functionality of the JavaScript functions in the provided code snippet.
 
