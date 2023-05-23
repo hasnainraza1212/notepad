@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'poppins'; */
+}
+
+/* font-family: 'Cedarville Cursive', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    /* font-family:pop !important ; */
+    min-width: 500px;
+}
+.main{
+    height: 80vh;
+    min-width: 300px;
+    border-radius: 25px;
+    padding: 30px 30px;
+}
+
+.titleSection{
+    height: 20%;
+}
+.input{
+    width: 65%;
+}
+label{
+    color:#d1d1d1;
+    font-weight: 300;
+}
+input::placeholder{
+    color: #d1d1d1;
+}
+h1:focus{
+    outline: none;
+}
+.controllSection{
+    height: 15%;
+    background-color:white !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative !important;
+    border-top: #F1F1F1 3px solid;
+    border-bottom: #F1F1F1 3px solid;
+    /* margin-bottom: 20px !important; */
+    padding: 5px 0;
+    
+}
+
+.box1{
+    width: 33.33%;
+}
+
+.box2{
+    width: 33.33%;
+}
+.contoller1,.contoller2,.contoller3,.contoller4,.contoller5{
+    width: 50%;
+    /* min-width: 20px; */
+    background-color: white !important;
+    border-right: 3px #F1F1F1 solid;
+    height: 50px;
+}
+.contoller1 select, .contoller2 select{
+    width: 100%;
+    min-width: 80%;
+    padding: 0 20px;
+    margin-right: 20px;
+}
+
+.contoller3 .positionsLeft   ,.contoller3 .positionsRight  ,.contoller3 .positionsCenter ,.contoller3 .positionsJustify {
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+.innerPositionBox{
+    width: 60%;
+    height: 60%;
+}
+.contoller3 .positionsLeft:hover  ,.contoller3 .positionsRight:hover  ,.contoller3 .positionsCenter:hover,.contoller3 .positionsJustify:hover {
+   
+    background-color: #f1f1f1;
+}
+
+.contoller4 .positionsLeft   ,.contoller4 .positionsRight  ,.contoller4 .positionsCenter ,.contoller4 .positionsJustify {
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.contoller4 .positionsLeft .innerPositionBox{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;justify-content: space-evenly;
+}
+.contoller4 .positionsLeft .innerPositionBox .one{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.contoller4 .positionsLeft .innerPositionBox .two{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+}
+
+
+.contoller4 .positionsLeft .innerPositionBox .three{
+    width: 40%;
+    height: 3px;
+    background-color: black;
+}
+
+.contoller4 .positionsCenter .innerPositionBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: gray  !important; */
+}
+
+.contoller4 .positionsCenter .innerPositionBox .one{
+    width: 100%;
+    height: 3px;
+    /* margin-bottom: 3px !important; */
+    background-color: black;
+}
+
+
+
+.contoller4 .positionsRight .innerPositionBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.contoller4 .positionsRight .innerPositionBox .one{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.contoller4 .positionsRight .innerPositionBox .two{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+}
+
+
+.contoller4 .positionsRight .innerPositionBox .three{
+    width: 30%;
+    height: 3px;
+    background-color: black;
+}
+
+
+
+
+
+.contoller4 .positionsJustify .innerPositionBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    /* background-color: gray  !important; */
+}
+
+.contoller4 .positionsJustify .innerPositionBox .one{
+    width: 100%;
+    height: 3px;
+    /* margin-bottom: 3px !important; */
+    background-color: black;
+}
+
+.contoller4 .positionsJustify .innerPositionBox .two{
+    width: 100%;
+    height: 3px;
+    /* margin-bottom: 3px !important; */
+    background-color: black;
+}
+
+
+.contoller4 .positionsJustify .innerPositionBox .three{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.contoller4 .positionsCenter .innerPositionBox .two{
+    width: 60%;
+    height: 3px;
+    /* margin-bottom: 3px !important; */
+    background-color: black;
+}
+
+
+.contoller4 .positionsCenter .innerPositionBox .three{
+    width: 30%;
+    height: 3px;
+    background-color: black;
+}
+
+.contoller4 .positionsLeft:hover  ,.contoller4 .positionsRight:hover  ,.contoller4 .positionsCenter:hover,.contoller4 .positionsJustify:hover {
+   
+    background-color: #f1f1f1;
+}
+
+.contoller1 select:focus, .contoller2 select:focus{
+    outline: none;
+}
+
+.innerColorBox{
+    width: 100%;
+}
+.color{
+    width: 30px;
+    min-width: 20px;
+    height: 30px;
+    border-radius: 50% !important;
+    border: 0 !important;
+    outline: 0 !important;
+    padding: 0;
+}
+
+.textSection{
+    height: 65%;
+    background-color: white !important;
+
+}
+.textArea{
+    width: 100%;
+    height: 100%;
+    border:0;
+    outline: 0;
+    resize: none;
+    color: #d1d1d1;
+}
+.textArea:focus{
+    outline: 0;
+}
+input:focus{
+    outline: 0;
+}
+
+.contoller5{
+    border: 0;
+}
+@media screen and (max-width:998px){
+    .box1{
+        width: 100%;
+        padding: 10px 0;
+
+    }
+    
+    .box2{
+        width: 100%;
+        border-top: #F1F1F1 3px solid;
+        padding: 10px 0;
+    }
+    .controllSection{
+        flex-direction: column;
+        height: 35%;
+    }
+    .contoller5, .contoller2{
+        border: 0;
+    }
+    .textSection{
+        height: 45%;
+        background-color: white !important;
+
+    }
+    .titleSection{
+        height: 20%;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    
+    .contoller4{
+        border: 0;
+    }
+    .controllSection{
+        height: 35%;
+    }
+
+
+    .textSection{
+        height: 50%;
+        border: 0; 
+        outline: none;
+        background-color: white !important;
+    }
+    .titleSection{
+        height: 15%;
+    }
+
+}
+
